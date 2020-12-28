@@ -24,8 +24,8 @@ after_script:   # 最后执行的命令
 - git config user.name "aner1001"
 - git config user.email "584856024@qq.com"
 - git add .
-- git commit -m "hexo_public_to_origin"
-- git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:main
+- git commit -m "如果是中文就会失败。"
+- git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:main  #master为本地分支名/main为远程分支名
 
 branches:
   only:
