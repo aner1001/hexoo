@@ -1,11 +1,11 @@
-#language: node_js
-#node_js:
-#  - "8"
-
-
 language: node_js
+node_js:
+  - "13"
 
-node_js: stable  # 要安装的node版本为当前最新的稳定版
+
+#language: node_js
+
+#node_js: stable  # 要安装的node版本为当前最新的稳定版
 
 cache:
  directories:
